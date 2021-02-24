@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: large;
+}
+
+#selectBar{
+    align-items: center;
+}
+
+
+.grid {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-content: center;
+    background-color: whitesmoke;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    display: flex;
+    width: 15vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    background-color:whitesmoke;
+    border: solid 1px black;
+    font-size: 10vw 10vh;
+}
+.cell:hover{
+    background: rgb(241, 228, 110);
+    cursor: pointer;
+
+}
+
+.reset{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(104, 137, 236);
+}
+#single{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(104, 137, 236);
+}
+#multi{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(104, 137, 236);
+}
+
+#selectX{
+    height: 50px;
+    width: 50px
+}
+
+#selectO{
+    height: 50px;
+    width: 50px
+}
+
+#cell{
+    height: 10vh;
+    width: 10vw;
+}
